@@ -11,7 +11,7 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(new bool[] { true, true, true }, false)]
         [InlineData(new bool[] { true, true }, false)]
         [InlineData(new bool[] { true }, false)]
-        [InlineData(new bool[] { }, false)]
+        [InlineData(new bool[] {}, false)]
         [InlineData(new bool[] { true, true, true, false }, true)]
         [InlineData(new bool[] { true, true, false, true }, true)]
         [InlineData(new bool[] { true, false, true, true }, true)]

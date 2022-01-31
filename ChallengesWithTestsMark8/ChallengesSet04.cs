@@ -6,7 +6,14 @@ namespace ChallengesWithTestsMark8
     {
         public int AddEvenSubtractOdd(int[] numbers)
         {
-            throw new NotImplementedException();
+            var x = 0;
+            for (var i = 0; i < numbers.Length; i++)
+                if (i % 2 == 0)
+                    x++;
+            for (var i = 0; i < numbers.Length; i++)
+                if (i % 2 != 0)
+                    x--;
+            return x;
         }
 
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
