@@ -32,7 +32,7 @@ namespace ChallengesWithTestsMark8
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
         {    
-            if (password.Length >= 0&& password.Any(char.IsLower) && password.Any(char.IsUpper) && password.Any(char.IsDigit))
+            if (password.Length >= 0 && password.Any(char.IsLower) && password.Any(char.IsUpper) && password.Any(char.IsDigit))
                 return true;
             else 
                 return false;

@@ -215,7 +215,7 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(9, 362880)]
         [InlineData(10, 3628800)]
         public void Factorial(int number, int expected)
-        {
+        { 
             // Arrange
             ChallengesSet04 challenger = new ChallengesSet04();
 
